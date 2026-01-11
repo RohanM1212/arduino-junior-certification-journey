@@ -1,5 +1,6 @@
 Lesson Two: Quick Break (Hardware Troubleshooting)
-I was all set to dive into the math of Ohm’s Law, but I had to take an unexpected detour. Before I could even start the lesson, I realized the Multimeter wasn't working. This made so frustrated because I tried EVERYTHING to get it to work, but the issue was the simplest one. I learned from this to NEVER rule out the simplest option without trying it. It also makes me upset because I spend hours trying to get it to work because I was in the middle of a lesson. Here is what I did to try and fix it, and what the problem was:
+
+I was all set to dive into the math of Ohm’s Law, but I had to take an unexpected detour. Before I could even start the lesson, I realized the Multimeter wasn't working. This made so frustrated because I tried EVERYTHING to get it to work, but the issue was the simplest one. The one I ignored. I learned from this to NEVER rule out the simplest option without trying it. It also makes me upset because I spend hours trying to get it to work because I was in the middle of a lesson. Here is what I did to try and fix it, and what the problem was:
 
 The Multimeter Mystery
 When I tried to power on my ANENG DM850, the screen stayed completely blank. I couldn't see anything on the multimeter. I did get frustrated for a bit but then calmed myself to fix the problem. An frustrated mind is not better than no mind.
