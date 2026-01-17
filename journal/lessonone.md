@@ -4,30 +4,30 @@ Today I would be building my first circuit. Before any of that though, I was tau
 
 Now for the vocabulary taught in this lesson:
 
-Anode - The electrode or wire where electricity enters a device
-Breadboard - A device which allows for easy connection of components
-Cathode - The electrode or wire where electricity leaves a device
-Circuit - A conductive path which allows electricity to flow through it
-Conductor - A material which allows electrons to pass through easily
-Conductance - How easy it is for an electron to pass through in siemens (units)
-Current - The amount of electrons passing through something over a given time in amps (units)
-Electron - One of the three particles that make up an atom and is negatively charged which can be passed from atom to atom creating a flow of electricity
-Insulator - An object which resists the flow of electrons through it
-Ohm's Law - A law, like Newton's second law of motion, which states V(Voltage) = I(Current) * R(Resistance)
-Prototype - A sort of rough draft or first model of anything which can be used to find errors and optimize it
-Resistance - How hard it is for an electron to pass through it
-Resistor - An electronic component which reduces the flow of electrons in a current
-Voltage - Difference in electrical energy between two points
+Anode - The electrode or wire where electricity enters a device.
+Breadboard - A device which allows for easy connection of components.
+Cathode - The electrode or wire where electricity leaves a device.
+Circuit - A conductive path which allows electricity to flow through it.
+Conductor - A material which allows electrons to pass through easily.
+Conductance - How easy it is for an electron to pass through in siemens (units).
+Current - The amount of electrons passing through something over a given time in amps (units).
+Electron - One of the three particles that make up an atom and is negatively charged which can be passed from atom to atom creating a flow of electricity.
+Insulator - An object which resists the flow of electrons through it.
+Ohm's Law - A law, like Newton's second law of motion, which states V(Voltage) = I(Current) * R(Resistance).
+Prototype - A sort of rough draft or first model of anything which can be used to find errors and optimize it.
+Resistance - How hard it is for an electron to pass through it.
+Resistor - An electronic component which reduces the flow of electrons in a current.
+Voltage - Difference in electrical energy between two points.
 
 I also learned about something cool about computers in this lesson. Computers also take in electricity, but how do they turn it into the commands we give them or the things they display on the screen? They use thousands of transistors. Even the Arduino board itself has many transistors. What these things do is they can either stop or start the flow of electricity and these two cases make up the 0s and 1s in the code of all computers today. I have been itching to know about the 0s and 1s in the computers for so long now, it feels good to know. I honestly am amazed how we, as humans, did this so long ago and now are out here making robots with 206 bones and simulate human sweat (protoclone robot). 
 
-One safety thing is that I have to avoid short circuiting in all my future projects as it would waste a lot of money and time if I short circuited. This usually happens when there are no resistors or the current is to high, leading to overpowering the motor or component and having the excess energy turn into intense heat or flames. It would definitely ruin the electrical component and maybe even the power source. 
+One safety thing is that I have to avoid short circuiting in all my future projects as it would waste a lot of money and time if I short circuited. Short circuit refers to a path of electricity that has little to no resistance. If there was no resistance, then the current could theoretically be infinite, which causes heat/fire and the destruction of the component. The math also checks out with this, since I = V/R, and if R is zero, we get a nearly infinite current.
 
 Circuits also have two different types of circuits, open and closed circuits. An open circuit is a circuit in which electrons enter and there is an electrical flow, but it ends eventually due to a component in the design or due to a mistake by the creator. Some examples of open circuits are light switches and transistors. When a light switch or transistor is off, it is cutting of electricity at that point creating an open circuit. A closed circuit on the other hand has electric flow circle through the entire circuit continuously. An example of a closed circuit is the circuit I made (refer to lesson_one_closed_circuit in media) which has electrons flowing from the battery throughout the whole system. If the system wasn't closed, the LED wouldn't turn on.
 
-In my circuit which I am about to explain, we need a resistor because of the amount of power we are providing. An LED usually only needs 2.0-2.4 Volts to light up, but I am providing 9 volts so we need to add a resistor to eat up the other 7-6.6 volts. We can see this in Ohm's law as well since Voltage = Current * Resistance, and we know Voltage is 9 and voltage required for the LED to turn on is 2-2.4, so resistance has to be a value grater than 1 meaning we need resistance.
+In my circuit which I am about to explain, we need a resistor because of the amount of power we are providing. An LED usually only needs 2.0-2.4 Volts to light up, but I am providing 9 volts so we need to add a resistor to protect the LEDs from destroying themselves. If provided with even slightly to much voltage, LEDs might pull in to much current leading them to self-destruction. That is where the other 7-6.6 voltsgo. We can see this in Ohm's law as well since Voltage = Current * Resistance, and we know Voltage is 9 and voltage required for the LED to turn on is 2-2.4, so resistance has to be a value grater than 1 meaning we need resistance.
 
-So this was the first circuit that I made. It used a breadboard, yellow LED, one jumper wire, one resistor, and a 9V battery pack. For this to work I needed to understand how breadboards work. Breadboards have connected columns on the left and right of the breadboard where you connect the anode and cathode of the power source. They also have rows in the middle which are connected, meaning all the rows in the breadboard share a connection. The two sides of the breadboard are separated by something called trough which allows us to use both sides without connecting them. The vertical columns marked by the plus sign are meant for the anode of the power source and the vertical columns marked by the negative symbol are meant for the cathode of the power source. So to get the LED to light up, I had to connect the 9V battery's anode and cathode to the breadboard to provide a current to the LED, but I didn't connect the battery snap to the battery since I didn't finish the circuit yet. Then I had to connect a resistor from the column on the breadboard marked by a positive symbol to the row in which the anode of the LED is connected in order to avoid short circuiting the LED. Finally, I had to connect a jumper wire from the column marked by a negative symbol to the row which is connected to the cathode of the LED to close the circuit. Now all I had to do was connect the battery snap to the battery and the LED would light up. It lit up, as shown in lesson_one_closed_circuit image in media. 
+So this was the first circuit that I made. It used a breadboard, yellow LED, one jumper wire, one resistor, and a 9V battery pack. For this to work I needed to understand how breadboards work. Breadboards have connected columns on the left and right of the breadboard where you connect the anode and cathode of the power source. They also have rows in the middle which are connected, meaning all the rows in the breadboard share a connection. The two sides of the breadboard are separated by something called trough which allows us to use both sides without connecting them. The trough is actually used for ICs (Integrated Circuits) so that they don't short circuit. The vertical columns marked by the plus sign are meant for the anode of the power source and the vertical columns marked by the negative symbol are meant for the cathode of the power source. So to get the LED to light up, I had to connect the 9V battery's anode and cathode to the breadboard to provide a current to the LED, but I didn't connect the battery snap to the battery since I didn't finish the circuit yet. Then I had to connect a resistor from the column on the breadboard marked by a positive symbol to the row in which the anode of the LED is connected in order to avoid short circuiting the LED. Finally, I had to connect a jumper wire from the column marked by a negative symbol to the row which is connected to the cathode of the LED to close the circuit. Now all I had to do was connect the battery snap to the battery and the LED would light up. It lit up, as shown in lesson_one_closed_circuit image in media. 
 
 Now knowing what I know about closed and open circuits, I want to turn the lighting up of the LED into a controllable action. I don't want to remove the battery every time I want the LED to turn of, so I need to find a component which can turn a closed circuit into an open one. If I can find a component which can turn a closed circuit into an open circuit based on human input that would be nice and interesting to see.
 
