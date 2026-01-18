@@ -1,4 +1,4 @@
-Lesson Six: Quick Break (Missing Component)
+Lesson Six Quick Break (Missing Component)
 
 Lesson six was on capacitators, a new component. It was actually quite interesting to learn about it in the lesson but when it came time to start the wiring, there was no capacitator to be found. I genuinely turned the whole kit into a mess trying to find a capacitator, but it turns out there was no capacitator. This is the second time I've had an issue in this journey, so I wasn't to frustrated. Of course I couldn't skip the lesson, my certification was going to have this topic on it. I still will be able to use a multimeter, but I won't get the experience of using a capacitator in real life. I also checked and found out that my next lesson uses a capacitator as well so I don't think that lesson will be in person either. Luckily, the ones after don't use a capacitator so I can complete lessons 8, 9, and 10 in real life. It really was a bummer that I had to look for alternate ways to finish this lesson. Let me tell you everything I had to do to fix the issue, and it wasn't fun.
 
