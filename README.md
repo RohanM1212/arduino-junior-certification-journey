@@ -1,37 +1,67 @@
-Arduino Certification: Learning through Tangible Circuits
-- This repository is a comprehensive documentation of my journey through a 10-lesson Arduino certification. I am tracking my progress from basic electron movement to building interactive systems that respond to the real world.
+# Arduino Certification: Learning Through Tangible Circuits
 
-💡 My Engineering Philosophy
-- I don't just want to follow instructions; I want to connect what I learn to real life. Whether it's comparing a Piezo buzzer to a drumhead or debunking the myth that Benjamin Franklin discovered electricity all by himself with a kite, I try to understand the "why" behind every component.
+A complete documentation of my self-directed journey through a 10-lesson Arduino Junior Certification — started December 2024, completed independently with no instructor or mentor.
 
-🛠️ Technical Deep-Dives (Lessons 1-9)
+---
 
-- Proving Ohm's Law (Lesson 2)Now that my multimeter finally works, I used it to prove Ohm’s Law V = IR. I tested how voltage behaves in different setups:
- Series (2 LEDs): 1.82V
- Series (3 LEDs): 1.64V
- Parallel (2 LEDs): 1.87V
- Parallel circuits are better for smaller projects because the LEDs stay at maximum brightness, though I have to be careful not to pull too much current and overheat the Arduino.
+## 📓 Lessons
 
-Potentiometers & Analog Data (Lesson 4)
-- I learned that a potentiometer is a variable resistor. By turning a knob, I change the path electricity takes through a resistive track. This taught me how the Analog-to-Digital Converter (ADC) translates a voltage (0V to 5V) into a digital number (0 to 1023) that my code can actually use.
+| Lesson | Topic | Status |
+|--------|-------|--------|
+| Lesson 0 | Unboxing + Safety + Setup | ✅ Complete |
+| Lesson 1 | First Circuit — Closed Loop LED | ✅ Complete |
+| Lesson 2 | Ohm's Law + Series vs Parallel | ✅ Complete |
+| Lesson 3 | Traffic Light + Digital/Analog Inputs | ✅ Complete |
+| Lesson 4 | Potentiometer + Analog Data | ✅ Complete |
+| Lesson 5 | Capstone 1 — Multi-Mode Holiday Hub | ✅ Complete |
+| Lesson 6 | Capacitors + Servo Motor | ✅ Complete |
+| Lesson 7 | Windshield Wiper + Switch-Case + Loops | ✅ Complete |
+| Lesson 8 | Piezo Buzzer + Resistor Ladder + Musical Keyboard | ✅ Complete |
+| Lesson 9 | Phototransistor + Light Wave Radar | ✅ Complete |
+| Lesson 10 | Capstone 2 — Wireless Environmental Scanner | 🔧 In Progress |
 
-Adaptive Engineering: The Missing Capacitor (Lesson 6)
-- I ran into an issue where I was missing a polarized capacitor for my servo circuit. I didn't let that stop me. I used TinkerCad to build a Digital Twin (a virtual model) to test the circuit safely. It taught me that an engineer's best tool isn't always a screwdriver, it's the ability to adapt.
+---
 
-Musical Keyboards & Resistor Ladders (Lesson 8)
-- I built a musical keyboard that plays an entire octave. Instead of writing an "insane amount" of if statements for every button, I used a resistor ladder. This structure let me use just one analog pin to read multiple buttons, which showed me how hardware can make software much simpler.
+## 💡 Engineering Philosophy
 
-Sensors & Functional Programming (Lesson 9)
-- I worked with Phototransistors (which are like the opposites of LEDs). I also learned how to organize my code into functions like transmitter(), receiver(), and collectData(). This makes the code way cleaner and easier to debug than just cramming everything into the void loop.
+I don't just follow instructions. Every lesson I connect what I learn to the history of who invented it and why, the physics behind how it works, and what it means for real systems. Whether it's tracing the resistor ladder back to hardware optimization principles or connecting asynchronous timing to robotics decision loops, I treat every circuit as a system to understand, not just build.
 
-🎓 Tutoring & Outreach
-- I’m currently turning these lessons into a curriculum for middle schoolers at my local library.
-- Senior Tutor Experience: I am a Senior Tutor on Schoolhouse.world for Algebra 2.
-- Global Reach: I have hosted 32 sessions, reached learners in 16 countries, and have over 120 positive ratings. I use my "detailed and patient" teaching style to help other kids get excited about circuits.
+---
 
-📂 Repository Structure
-Based on my project organization:
-- /Journals: Detailed post-lesson reflections and vocabulary for Lessons 1-9.
-- /Code: Arduino (.ino) files for the Holiday Hub, Traffic Light, and Keyboard.
-- /Media: Visual proof of closed circuits and multimeter readings.
-"I honestly love Arduino so far—there isn't anything to complain about. I just love the idea of creating tangible circuits. I don't think I will ever not want to create circuits." — From my Lesson 5 Reflection
+## 🔬 Technical Highlights
+
+**Proving Ohm's Law (Lesson 2)**
+Measured voltage across series and parallel circuits with a multimeter:
+- Series 2 LEDs: 1.82V per LED
+- Series 3 LEDs: 1.64V per LED
+- Parallel 2 LEDs: 1.87V per LED
+
+Confirmed tolerance of ±0.1V due to internal resistance and wire voltage drop.
+
+**Adaptive Engineering — Missing Capacitor (Lesson 6)**
+Kit arrived without a polarized capacitor. Instead of stopping, I found TinkerCAD and built a digital twin to complete the lesson virtually. Documented the full troubleshooting process including box destruction and online research before finding the solution.
+
+**Resistor Ladder + Musical Keyboard (Lesson 8)**
+Built an octave keyboard using one analog pin to read four buttons by assigning each a different resistor. Hardware does the sorting so the software stays clean — one analogRead instead of four digitalReads.
+
+**Logic Synthesis Document**
+After completing lessons 1-9, I wrote a synthesis connecting every major concept to software engineering principles — blocking vs non-blocking code, hardware optimization vs software logic, physical state vs boolean variables. See Logic_Synthesis.md.
+
+---
+
+## 📂 Repository Structure
+
+```
+/journal          — Post-lesson reflections for lessons 0-9 + Logic Synthesis
+/src              — Arduino (.ino) code files
+/media            — Circuit photos and multimeter readings
+/schematics       — Wiring diagrams
+```
+
+---
+
+## 🎓 What Came Next
+
+These lessons directly led to:
+- **arduino-for-kids** — A free 8-lesson Arduino curriculum I designed and teach at my local public library for ages 11-14
+- **MIT BWSI 2026** — Accepted to MIT Beaver Works Summer Institute, Microelectronics and Embedded Systems track
