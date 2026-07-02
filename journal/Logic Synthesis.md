@@ -23,4 +23,4 @@ The Synthesis: By using resistors to create different voltage "steps," I was abl
 This taught me that you can use hardware to do the "sorting" for you. It’s a lesson in System Architecture: using the physical properties of components to make the software simpler and more efficient.
 
 4. Why This Matters
-Building these circuits changed how I look at my code. It made me realize that every line of code has a physical consequence—whether it's moving a servo, vibrating a "drumhead" membrane in a piezo buzzer, or draining a battery. Moving from the "Virtual" to the "Tangible" has made me a much more careful and deliberate programmer.
+Building these circuits changed how I look at my code. It made me realize that every line of code has a physical consequence - whether it's moving a servo, vibrating a "drumhead" membrane in a piezo buzzer, or draining a battery. Moving from the "Virtual" to the "Tangible" has made me a much more careful and deliberate programmer.

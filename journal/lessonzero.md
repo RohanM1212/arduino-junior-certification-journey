@@ -17,13 +17,13 @@ Resistor - Resists the flow of electricity depending on number and color of band
 Servo Motor - Can rotate a maximum of 180 degrees based on electrical pulses from the Arduino
 USB Cable - Used to connect the Arduino and a computer to code and provide power to the Arduino
 
-Along with this, we were given a orange board with a lot of cutouts on it. I was tasked to remove the cutouts, screw the Arduino on the board, and stick the breadboard to it to create what they called the Project Board (refer to the unboxing_and_base_setup.jpg image in media).
+Along with this, we were given an orange board with a lot of cutouts on it. I was tasked to remove the cutouts, screw the Arduino on the board, and stick the breadboard to it to create what they called the Project Board (refer to the unboxing_and_base_setup.jpg image in media).
 
 Also, to code the Arduino, I will be using a software called Arduino IDE. Very surprising I know. After all of this, I was tasked to take a test from the logbook that was given to us. The logbook contains mainly assessments and notes for each lesson. For the safety quiz, I scored a 100% teaching me:
 
 Electricity can cause shocks, burns, nerve damage, and irregular heartbeat.
 When working with circuits, make sure to NOT work on a metal surface, have an open beverage nearby, work with power supplied to the circuit, and wear metal jewelry.
-If a person is being shocked by a circuit, the first thing you should do is turn off the circuit. 
+If a person is being shocked by a circuit, the first thing you should do is turn off the circuit.
 Supply power to the circuit only when it is finished.
 If an electrical component is damaged, replace it.
 
